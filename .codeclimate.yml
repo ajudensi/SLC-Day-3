@@ -1,0 +1,20 @@
+engines:
+  duplications:
+    enabled: false
+    config:
+      languages:
+        - javascript
+  eslint:
+    enabled: true
+    # ... CONFIG CONTENT ...
+    checks:
+      comma-dangle:
+        enabled: false
+  fixme:
+    enabled: true
+ratings:
+  paths:
+    - "cliAPI/**/*"
+    - "tests/**/*"
+    - "wordCount/***/*"
+    - "reverseString/**/*"

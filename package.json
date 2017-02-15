@@ -1,0 +1,31 @@
+{
+  "name": "slc-day-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "scripts": {
+    "missing": "jasmine tests/findMissing.js",
+    "binary": "jasmine tests/binarySearch.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajudensi/SLC-Day-3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajudensi/SLC-Day-3/issues"
+  },
+  "homepage": "https://github.com/ajudensi/SLC-Day-3#readme",
+  "description": ""
+}
