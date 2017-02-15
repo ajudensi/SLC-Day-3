@@ -22,3 +22,5 @@ npm run binary
 
 ## User Interface
 UI > index.html 
+
+[View this simple UI here](https://ajudensi.github.io/SLC-Day-3/)
