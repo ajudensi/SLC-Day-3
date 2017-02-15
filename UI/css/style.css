@@ -10,7 +10,7 @@ body {
 h1.logo {
   color: rgba(255, 255, 255, 1);
   font-weight: bold;
-  font-size: 40px;
+  font-size: 35px;
 }
 h2.title {
   color: rgba(255, 255, 255, 1);
@@ -18,7 +18,7 @@ h2.title {
 .registration-form {
   background: rgba(238, 238, 238, 1.0);
   padding: 35px;
-  margin: 20px 70px;
+  margin: 20px 100px;
   display: block;
 }
 .form-group label {
