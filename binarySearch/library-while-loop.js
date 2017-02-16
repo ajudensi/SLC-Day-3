@@ -35,9 +35,8 @@ Array.prototype.search = function (n) {
     length: arr.length,
   };
 
-  for (obj.count; firstIndex <= lastIndex; obj.count += 1) {
+  while (firstIndex <= lastIndex) {
     const midIndex = Math.floor((firstIndex + lastIndex) / 2);
-
     if (arr[midIndex] === n) {
       obj.index = midIndex;
       return obj;
@@ -54,6 +53,7 @@ Array.prototype.search = function (n) {
       lastIndex = midIndex - 1;
       firstIndex += 1;
     }
+    obj.count++;
   }
   return obj;
 };
